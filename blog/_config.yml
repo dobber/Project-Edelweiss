@@ -1,12 +1,20 @@
+# Build directories
+source: /home/dobber/Projects/edelweiss/blog/
+destination: /var/www/blog/
+
 # Site settings
 title: Project Edelweiss && Learning the practice of continuous delivery
 email: zlobber at gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   To learn the practice of continuous delivery of software, development of ruby applications, following best TDD practice, continuous integration and automatic testing
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://bubka.rsbackup.org:4000" # the base hostname & protocol for your site
+
+baseurl: "/blog" # the subpath of your site, e.g. /blog/
+
+url: "http://bubka.rsbackup.org" # the base hostname & protocol for your site
+
 twitter_username: zlobber
 github_username:  dobber
 
 # Build settings
 markdown: kramdown
+
